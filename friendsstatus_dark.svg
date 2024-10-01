@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" x="0px" y="0px" width="36" height="144" viewBox="0 0 36 144" enable-background="new 0 0 36 108" id="svg675" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs679"/>
+  <g id="label"/>
+  <g id="BC"/>
+  <g id="brand"/>
+  <g id="generic"/>
+  <g id="negative"/>
+  <g id="creation"/>
+  <g id="games"/>
+  <g id="Social_and_Interaction"/>
+  <g id="Navigation"/>
+  <g id="Friends_Status" transform="translate(0,0.313167)">
+    <g id="Available">
+      <circle cx="18" cy="90" r="16" id="circle641" style="fill: rgb(116, 199, 236);"/>
+      <g id="g647">
+        <circle fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="18" cy="84" r="5" id="circle643"/>
+        <path fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m 18,92 c 0,0 5,0 6,1 1,1 2,6 2,6 0,0 -3.1,2 -8,2 -4.9,0 -8,-2 -8,-2 0,0 1,-5 2,-6 1,-1 6,-1 6,-1 z" id="path645"/>
+      </g>
+    </g>
+    <g id="InStudio">
+      <circle cx="18" cy="54" r="16" id="circle650" style="fill: rgb(250, 179, 135);"/>
+      <polygon fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="8,47 8,52 10,54 15,54 18,57 18,62 20,64 25,64 22,61 22,58 25,58 28,61 28,56 26,54 21,54 18,51 18,46 16,44 11,44 14,47 14,50 11,50 " id="polygon652"/>
+    </g>
+    <g id="InGame">
+      <circle cx="18" cy="18" r="16" id="circle655" style="fill: rgb(166, 209, 137);"/>
+      <g id="g671">
+        <polygon fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="16,23 20,23 25,25 29,25 29,14 24.2,11 12,11 7,14 7,25 11,25 " id="polygon657"/>
+        <line fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="11" y1="18" x2="15" y2="18" id="line659"/>
+        <line fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="13" y1="16" x2="13" y2="20" id="line661"/>
+        <g id="g665">
+          <path fill="#ffffff" d="m 22,15 c -0.8,0 -1.5,0.7 -1.5,1.5 0,0.8 0.7,1.5 1.5,1.5 0.8,0 1.5,-0.7 1.5,-1.5 C 23.5,15.7 22.8,15 22,15 Z" id="path663"/>
+        </g>
+        <g id="g669">
+          <path fill="#ffffff" d="m 25,18 c -0.8,0 -1.5,0.7 -1.5,1.5 0,0.8 0.7,1.5 1.5,1.5 0.8,0 1.5,-0.7 1.5,-1.5 C 26.5,18.7 25.8,18 25,18 Z" id="path667"/>
+        </g>
+      </g>
+    </g>
+    <g id="Available-7" transform="translate(0,36)">
+      <circle fill="#00a2ff" cx="18" cy="90" r="16" id="circle641-6" style="fill:#000000;fill-opacity:1"/>
+      <ellipse cx="18" cy="126.31316" stroke-width="2.66667" id="circle435" rx="14.666667" ry="14.666666" transform="translate(0,-36.313167)" style="fill: rgb(49, 50, 68); stroke: rgb(166, 173, 200);"/>
+    </g>
+  </g>
+</svg>
