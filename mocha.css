@@ -1,0 +1,555 @@
+/* ==UserStyle==
+@name           Mocha Roblox
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("www.roblox.com") {
+    .game-carousel .grid-item-container{
+        width: 140px;
+    }
+    .social-links .Twitter{
+        border-radius: 18px;
+    }
+    .social-links .Discord{
+        border-radius: 18px;
+    }
+    .social-links .contents{
+        background-color:  #181825;
+    }
+    .dark-theme .rbx-tab .rbx-tab-heading{
+        background-color:  transparent
+    }
+    .rbx-tabs-horizontal .rbx-tab-heading{
+        margin-right:  0px;
+        margin-left: 0px;
+        padding: 10px;
+        border: 1px solid #181825;
+    }
+    .dark-theme .rbx-tabs-horizontal .rbx-tab.active .rbx-tab-heading{
+        border-radius: 12px !important;
+        background-color: #181825;
+        border: 1px solid #bdbebe;
+        cursor: pointer;
+    }
+    .dark-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading:hover{
+        background-color: #00000080;
+    }
+    
+    .dark-theme .rbx-tabs-horizontal .rbx-tab .rbx-tab-heading:active{
+        background-color: #00000080 !important;
+    }
+    .game-main-content.follow-button-enabled .favorite-follow-vote-share{
+        background-color: #181825;
+        position: absolute;
+        top: 75%;
+        left: 5.5%;
+        width: 300.014px;
+        height: 75.750px;
+        padding: 15px;
+        border-radius: 18px;
+    }
+    #game-details-play-button-container .btn-common-play-game-lg{
+        margin:0 auto 115px;
+    }
+    .game-main-content.follow-button-enabled .favorite-follow-vote-share .game-favorite-button-container .icon-favorite{
+        transition: transform 0.15s ease-in-out;
+    }
+
+    .game-main-content.follow-button-enabled .favorite-follow-vote-share .game-favorite-button-container:hover .icon-favorite{
+        transform: scale(1.2);
+    }
+
+    .game-main-content.follow-button-enabled .favorite-follow-vote-share .game-favorite-button-container:active .icon-favorite{
+        transform: scale(0.85);
+    }
+
+    .game-main-content.follow-button-enabled .favorite-follow-vote-share .game-follow-button-container .icon-follow-game{
+        transition: transform 0.15s ease-in-out;
+    }
+
+    .game-main-content.follow-button-enabled .favorite-follow-vote-share .game-follow-button-container:hover .icon-follow-game{
+        transform: scale(1.2);
+    }
+
+    .game-main-content.follow-button-enabled .favorite-follow-vote-share .game-follow-button-container:active .icon-follow-game{
+        transform: scale(0.85);
+    }
+    .rbx-tab{
+        padding: 6px;
+    }
+    .dark-theme .stack .stack-list .stack-row{
+        background: #181825;
+    }
+    .thumbnail-2d-container img{
+        border-radius: 18px;
+        background: #181825;
+    }
+    .dark-theme .game-card-container .game-card-thumb-container{
+        border-radius: 18px;
+    }
+    .dark-theme .chat-main{
+        background-color: #181825;
+        border-radius: 12px;
+    }
+    .dark-theme .modal-dialog .modal-content{
+        border-radius: 12px;
+        background-color: #181825;
+    }
+    .dark-theme .game-social-links>.btn-secondary-lg{
+        border-radius: 12px;
+        background-color: #181825;
+    }
+    .dark-theme .friend-tile-dropdown{
+        background-color: #181825;
+        
+        & li button{
+            color: #fff;
+        }
+    }
+    .dark-theme .content{
+        background: #1e1e2e;
+    }
+    .dark-theme{
+        background: #1e1e2e;        
+    }
+    .dark-theme .rbx-left-col{
+        background: #181825;
+    }
+    .dark-theme .rbx-header{
+        background: #181825;
+        border-color: #181825;
+    }
+    .dark-theme .hover-game-tile.focused{
+        background: #181825;
+    }
+    .dark-theme .hover-game-tile.focused .featured-game-container{
+        background: #181825;
+    }
+    .dark-theme .section-content{
+        border-radius: 12px !important;
+        background: #181825 !important;        
+    }
+    .dark-theme .rbx-tabs-horizontal .nav-tabs{
+        background: #181825;
+    }
+    .dark-theme .rbx-tab .rbx-tab-heading{
+        background: #181825;
+    }
+    .ropro-cloud-play-container{
+        background: #181825 !important;
+    }
+    .dark-theme .age-rating-details{
+        background: #313244;
+    }
+    .dark-theme .stack .card-list .card-item {
+        background: #181825;
+    }
+    .dark-theme .dropdown-menu{
+        background: #313244;
+        box-shadow: 0 0 8px 0 rgba(255, 255, 255, .16) ;
+    }
+    .dark-theme .open .dropdown-menu{
+        background: #313244
+    } 
+    #roproServerFiltersMiniButton{
+        background: #313244 !important;
+    }
+    .server-filters-dropdown-box{
+        background: #313244 !important;
+    }
+    .server-filter-option {
+        background: #45475a !important;
+    }
+    .dark-theme #playerCountSelector {
+        background: #313244 !important;
+    }
+    .dark-theme #maxPlayersListMini {
+        background: #313244 !important;
+    }
+    .dark-theme #maxPlayersList {
+        background: #313244  !important
+    }
+    .dark-theme .max-players-selection {
+        background: #45475a !important;
+    }
+    .dark-theme #serverRegionSelector {
+        background: #313244 !important;
+    }
+    .server-filter-option:hover .filter-tooltip {
+        background: #313244 !important;
+    }
+    .dark-theme .popover{
+        background: #313244;
+    }
+    .dark-theme .popover.bottom>.arrow, .dark-theme .popover.bottom>.arrow:after{
+        border-bottom-color: #313244;
+    }
+    .rbx-left-col li:hover{
+        background: #1e1e2e;
+    }
+    .dark-theme .container-footer{
+        background: #181825
+    }
+    .btr-profile .btr-games-list .btr-game-button{
+        background: #313244 !important;
+        border-color: #313244 !important;
+    }
+    .btr-profile .btr-games-list .btr-game-button:hover{
+        box-shadow: 0 1px 3px rgba(49, 50, 68,0.74)
+    }
+    .dark-theme .btn-generic-slideshow-xs{
+        background-color: #313244;
+        border-color: #181825;
+    }
+    .dark-theme .btn-generic-slideshow-xs:focus{
+        background-color: #181825;
+        border-color: #181825;
+    }
+    .dark-theme .btn-generic-slideshow-xs:hover{
+        background-color: #181825;
+        border-color: #181825;
+    }    
+    .dark-theme .btn-generic-grid-xs{
+        background-color: #313244;
+        border-color: #181825;        
+    }
+    .dark-theme .btn-generic-grid-xs:focus{
+        background-color: #181825;
+        border-color: #181825;        
+    }
+    .dark-theme .btn-generic-grid-xs:hover{
+        background-color: #181825;
+        border-color: #181825;        
+    }
+    .profile-avatar-left .enable-three-dee{
+        background-color: #313244;
+        color: #fff;
+        border-color: #1e1e2e;
+    }
+    .profile-avatar-left .enable-three-dee:hover{
+        background-color: #1e1e2e;
+        color: #fff;
+        border-color: #1e1e2e;
+    }
+    .profile-avatar-left .enable-three-dee:focus{
+        background-color: #1e1e2e;
+        color: #fff;
+        border-color: #1e1e2e;
+    }
+    .dark-theme .profile-avatar-right .profile-avatar-mask{
+        background-color: #1e1e2e;
+    }
+    #profile-current-wearing-avatar .thumbnail-2d-container{
+        background-color: #313244;
+        border-color: #313244;
+    }
+    .dark-theme .rbx-header .navbar-search .new-dropdown-menu{
+        background-color: hsl(240, 21%, 12%);
+    }
+    .dark-theme .dropdown-menu li:focus, .dark-theme .dropdown-menu li:hover{
+        background-color: hsla(240, 13%, 38%, .1)
+    }
+    #header .new-dropdown-menu .btr-fastsearch-anchor:hover{
+         background-color: hsla(240, 13%, 38%, .1);
+    }
+    .dark-theme .rbx-header .navbar-search .navbar-search-option.new-selected{
+        background-color: hsla(240, 13%, 38%, .26);
+    }
+    .dark-theme .asset-thumb-container{
+        background-color: #1e1e2e;
+    }
+    .btr-pager-holder input.btr-pager-cur{
+        background-color: #1e1e2e;
+        border-color: #1e1e2e;
+        color: #fff;
+    }
+    .dark-theme .btn-generic-right-sm:focus, .dark-theme .btn-generic-right-sm:hover{
+        background-color: #1e1e2e;        
+    }
+    .dark-theme .btn-generic-left-sm:focus, .dark-theme .btn-generic-left-sm:hover{
+        background-color: #1e1e2e;
+    }
+    .dark-theme .rbx-tabs-vertical .category-tabs .menu-vertical{
+        background-color: #181825;
+    }
+    .dark-theme .menu-vertical .menu-option:hover{
+        background-color: #1b1b28;
+    }
+    .dark-theme .item-card-container .item-card-thumb-container{
+        background-color: #1e1e2e;
+        border-color: #1e1e2e
+    }
+    .dark-theme .menu-vertical .menu-option .menu-secondary{
+        background-color: #181825;
+    }
+    .dark-theme .menu-vertical .menu-option .menu-secondary-option:focus, .dark-theme .menu-vertical .menu-option .menu-secondary-option:hover{
+        background-color: #1e1e2e;
+    }
+    .dark-theme .menu-vertical .menu-option .menu-secondary-option.active, .dark-theme .menu-vertical .menu-option .menu-secondary-option:active{
+        background-color: #1e1e2e;
+    }
+    .dark-theme .container-empty, .dark-theme .section-content-off{
+        background: #1e1e2e;
+    }
+    .dark-theme .btr-preview-container{
+        background: #181825;
+    }
+    .dark-theme .thumbnail-2d-container{
+        background-color: #181825;
+    }
+    .dark-theme .shopping-cart-modal-container .shopping-cart-modal{
+        background-color: #313244;
+    }
+    .btr-explorer-list, .btr-properties-container{
+        background: #313244;
+        border: 1px solid #1e1e2e;
+    }
+    .btr-explorer-item:not(.selected):hover{
+        background: #424359;
+    }
+    .btr-explorer-parent .btr-explorer div, .btr-explorer-parent .btr-properties div{
+        color: #ffff;
+    }
+    .btr-explorer, .btr-properties{
+        background: #181825;
+    }
+    .btr-explorer-header, .btr-properties-header{
+        background: #181825;
+        border-color: #181825;
+    }
+    .btr-explorer-has-children .btr-explorer-more::before, .btr-properties .btr-property-group .btr-property-group-more::before{
+        border-left-color: #fff;
+    }
+    .btr-explorer-filter input.btr-explorer-filter-input{
+        background: #202030;
+        color: #fff;
+    }
+    .btr-explorer-filter{
+        border-color: #202030;
+    }
+    .btr-explorer-header .btr-dropdown-container .btr-dropdown-btn{
+        background: #202030;
+    }
+    .btr-explorer-header .btr-dropdown-container .btr-dropdown-btn .btr-dropdown-label{
+        color: #fff;
+    }
+    .btr-explorer-header .btr-dropdown-container .btr-dropdown-btn:hover{
+        background: #33334a
+    }
+    .btr-explorer-header .btr-dropdown-container .btr-dropdown-menu{
+        background: #33334a;
+    }
+    .btr-explorer-header .btr-dropdown-container .btr-dropdown-menu > li.selected a{
+       background: #202030; 
+    }
+    .btr-explorer-header .btr-dropdown-container .btr-dropdown-menu > li:hover a{
+        background: #45455f
+    }
+    .btr-properties div.btr-property-group{
+        background: #202030;
+    }
+    .btr-properties .btr-property-group:hover{
+        background: #28283b
+    }
+    .btr-property-value input[type="text"]{
+        color: #fff;
+    }
+    .dark-theme .catalog-container .sticky .search-bars{
+        background: #1e1e2e;
+    }
+    .btr-catalog.dark-theme .btr-item-card-more{
+        background: #1e1e2e;
+    }
+    .container-main .sponsored-catalog-items-container .sponsored-catalog-items-row.dark-theme, .dark-theme .container-main .sponsored-catalog-items-container .sponsored-catalog-items-row{
+        background: #181825;
+    }
+    .dark-theme .catalog-container .sticky .topic-container{
+        background: #1e1e2e;
+    }
+    .dark-theme .messages .messageDivider{
+        background-color: #181825;
+    }
+    .dark-theme .messages .messageDivider:hover{
+        background-color: #202030;        
+    }
+    body .content .btr-currentPage input{
+        background-color: #181825;
+        border-color: #181825;
+        color: #fff
+    }
+    .dark-theme .horizontal-scroller .scroller .spacer{
+        background-color: #1e1e2e;
+    }
+    .dark-theme .scroller.disabled{
+        background: #20212c;
+    }
+    .dark-theme .scroller{
+        background: #313244;
+    }
+    .dark-theme .scroller:focus, .dark-theme .scroller:hover{
+        background: rgba(49, 50, 68, .58)
+    }
+    #bodySelectorContainer {
+        background: #181825 !important;
+    }
+    .avatar-thumbnail .toggle-three-dee{
+        background: #313244;
+        border-color: #313244;
+        color: #fff;
+    }
+    .avatar-thumbnail .toggle-three-dee:focus, .avatar-thumbnail .toggle-three-dee:hover{
+        background: #3e3f54;
+        border-color: #3e3f54;
+        color: #fff;        
+    }
+    .avatar-thumbnail .toggle-three-dee.active, .avatar-thumbnail .toggle-three-dee:active{
+        background: #3e3f54;
+        border-color: #3e3f54;
+        color: #fff;         
+    }
+    .dark-theme .rbx-tabs-horizontal #horizontal-tabs .rbx-tab:not(.active) a:not(:hover){
+        background-color: #181825;
+    }
+    .dark-theme #wrap.pinned .right-wrapper:before{
+        background: #181825;
+    }
+    .dark-theme .layer{
+        background: #1e1e2e;
+    }
+    .dark-theme .table{
+        background-color: #1e1e2e;
+    }
+    .dark-theme .table-striped>tbody>tr:nth-child(2n)>td, .dark-theme .table-striped>tbody>tr:nth-child(2n)>th{
+        background-color: #181825;
+    }
+    .dark-theme .menu-vertical{
+        background-color: #181825;
+    }
+    .dark-theme .rbx-select-group .rbx-select option, .dark-theme .rbx-select-group .select-option option, .dark-theme .select-group .rbx-select option, .dark-theme .select-group .select-option option{
+        background: #1e1e2e
+    }
+    .dark-theme .rbx-select-group .rbx-select option:checked, .dark-theme .rbx-select-group .rbx-select option:hover, .dark-theme .rbx-select-group .select-option option:checked, .dark-theme .rbx-select-group .select-option option:hover, .dark-theme .select-group .rbx-select option:checked, .dark-theme .select-group .rbx-select option:hover, .dark-theme .select-group .select-option option:checked, .dark-theme .select-group .select-option option:hover {
+        background-color: #0a0a10;    
+    }
+    .dark-theme .message-banner{
+        background: #181825;
+    }
+    .dark-theme .trade-row.selected{
+        background-color:#0b0b13
+    }
+    .dark-theme .trade-row{
+        background: #181825;
+    }
+    .dark-theme .trade-row:hover{
+        background: #141421;
+    }
+    .profile-avatar-left .thumbnail-span{
+        background: #181825 !important;
+    }
+    .dark-theme.btr-profile .btr-games-list .btr-game-desc .btr-toggle-description{
+        background: #181825;
+    }
+    .dark-theme .premium-landing-page .stipend-section{
+        background: #181825;
+    }
+    .dark-theme .premium-landing-page .game-benefit-section{
+        background: #181825;
+    }
+    .dark-theme .premium-landing-page .membership-section{
+        background: #181825;
+    }
+    .dark-theme .payment-method-label-clickable .payment-method-label{
+        background: #181825;
+    }
+    .dark-theme .payment-method-label-clickable .payment-method-label:hover{
+        background: #101019;
+    }
+    .dark-theme .friends-content .avatar-card-content{
+        background: #181825 !important;
+    }
+    .dark-theme .avatar-card-btns{
+        background: #181825 !important;
+    }
+    .dark-theme .avatar .avatar-card-image{
+        background-color: #1e1e2e !important;
+    }
+    .dark-theme .notification, .dark-theme .notification-blue, .dark-theme .notification-red{
+        background-color: #74c7ec;
+    }
+    #notifications-bell-badge.bell-red-badge{
+        background-color: #74c7ec;
+        color: #1e1e2e;
+    }
+    #header .btr-nav-notif{
+        background-color: #74c7ec;
+    }
+    .dark-theme .stack .card-list .player-thumbnails-container .player-avatar.hidden-players-placeholder{
+        background: #313244;
+    }
+    .dark-theme .stack .server-player-count-gauge{
+        background-color: #1e1e2e;
+        border-color: #313244;
+    }
+    .dark-theme .stack .server-player-count-gauge .gauge-inner-bar{
+        background: #313244;
+        border-color: #313244 ;
+    }
+    .btr-profile .btr-status-ingame{
+        color: #a6d189;
+    }
+    .dark-theme .btn-common-play-game-lg{
+        background: #a6d189;
+        border-color: #a6d189
+    }
+    .dark-theme .btn-common-play-game-lg:hover{
+        background: #80a567;
+        border-color: #80a567
+    }
+    .dark-theme .btn-growth-xs{
+        background: #a6d189;
+        border-color: #a6d189        
+    }
+    .dark-theme .btn-growth-xs:hover{
+        background: #80a567;
+        border-color: #80a567        
+    }
+    .dark-theme .btn-growth-md{
+        background: #a6d189;
+        border-color: #a6d189
+    }
+    .dark-theme .btn-growth-md:hover{
+        background: #80a567;
+        border-color: #80a567        
+    }
+    .dark-theme .btn-growth-sm{
+        background-color: #a6d189;
+        border-color: #a6d189;
+    }
+    
+    .dark-theme .btn-growth-sm:hover{
+        background: #80a567;
+        border-color: #80a567        
+    }
+    .dark-theme .btn-alert-md{
+        border-color: #f38ba8;
+        color: #f38ba8;
+    }
+    .dark-theme .game-home-page-container .home-interleave-divider{
+        background: #1e1e2e;
+    }
+    .dark-theme .catalog-tabs {
+        background: #181825;
+    }
+    .dark-theme .pill-toggle{
+        background: #181825
+    }
+    .dark-theme .pill-toggle input:checked+label{
+        background: #313244;
+    }
+    .dark-theme .item-thumbnail-container .asset-thumb-container{
+        background: #313244;    
+    }  
+}
